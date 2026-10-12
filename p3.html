@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BizHive Business Reservation Form</title>
+</head>
+<body>
+
+    <h2>BizHive Business Hub</h2>
+    <h3>Business Reservation Form</h3>
+
+    <form>
+        Company Name:
+        <input type="text" name="company">
+        <br><br>
+
+        Contact Person:
+        <input type="text" name="contact">
+        <br><br>
+
+        Email Address:
+        <input type="email" name="email">
+        <br><br>
+
+        Phone Number:
+        <input type="tel" name="phone">
+        <br><br>
+
+        Business Address:
+        <textarea name="address" rows="3" cols="25"></textarea>
+        <br><br>
+
+        Reservation Date:
+        <input type="date" name="date">
+        <br><br>
+
+        Reservation Time:
+        <input type="time" name="time">
+        <br><br>
+
+        Meeting Room:
+        <select name="room">
+            <option>Conference Room</option>
+            <option>Business Meeting Room</option>
+            <option>Training Room</option>
+            <option>Private Office</option>
+        </select>
+        <br><br>
+
+        Number of Participants:
+        <input type="number" name="participants" min="1" max="100">
+        <br><br>
+
+        Purpose of Reservation:
+        <input type="radio" name="purpose" value="Meeting">
+        Business Meeting
+
+        <input type="radio" name="purpose" value="Training">
+        Training
+
+        <input type="radio" name="purpose" value="Conference">
+        Conference
+        <br><br>
+
+        Additional Requirements:
+        <textarea name="requirements" rows="3" cols="25"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
